@@ -1,6 +1,9 @@
 package ifsc.projeto.pesquisa.sd.ws.modelos;
 
+import java.util.Date;
+
 public class Projeto {
+	
 	private String codigo;
 	private String titulo;
 	private String tipo;
@@ -9,6 +12,7 @@ public class Projeto {
 	private String area;
 	private String emailCoordenador;
 	private String coordenador;
+	private Date dateCadastro;
 	
 	public String getCodigo() {
 		return codigo;
@@ -72,6 +76,14 @@ public class Projeto {
 	
 	public void setCoordenador(String coordenador) {
 		this.coordenador = coordenador;
+	}
+
+	public Date getDateCadastro() {
+		return dateCadastro;
+	}
+
+	public void setDateCadastro(Date dateCadastro) {
+		this.dateCadastro = dateCadastro;
 	}
 	
 	
