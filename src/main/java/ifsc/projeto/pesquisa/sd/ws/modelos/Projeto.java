@@ -8,7 +8,7 @@ public class Projeto {
 	private String titulo;
 	private String tipo;
 	private String categoria;
-	private String Situacao;
+	private int situacao;
 	private String area;
 	private String emailCoordenador;
 	private String coordenador;
@@ -46,12 +46,12 @@ public class Projeto {
 		this.categoria = categoria;
 	}
 	
-	public String getSituacao() {
-		return Situacao;
+	public int getSituacao() {
+		return situacao;
 	}
 	
-	public void setSituacao(String situacao) {
-		Situacao = situacao;
+	public void setSituacao(int situacao) {
+		this.situacao = situacao;
 	}
 	
 	public String getArea() {
