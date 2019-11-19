@@ -1,9 +1,15 @@
 package ifsc.projeto.pesquisa.sd.ws.modelos.rest;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class ResponseBase<E> {
+	
+	@JsonProperty(value="Sucesso")
 	private boolean sucesso;
+	@JsonProperty(value="Mensagem")
 	private String mensagem;
-	private E Data;
+	@JsonProperty(value="Data")
+	private E data;
 	
 	public ResponseBase() {
 		super();
@@ -13,7 +19,7 @@ public class ResponseBase<E> {
 		super();
 		this.sucesso = sucesso;
 		this.mensagem = mensagem;
-		Data = data;
+		this.data = data;
 	}
 	public boolean isSucesso() {
 		return sucesso;
@@ -28,10 +34,10 @@ public class ResponseBase<E> {
 		this.mensagem = mensagem;
 	}
 	public E getData() {
-		return Data;
+		return data;
 	}
 	public void setData(E data) {
-		Data = data;
+		this.data = data;
 	}
 	
 	

@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+import ifsc.projeto.pesquisa.sd.ws.modelos.DashboardInfos;
 import ifsc.projeto.pesquisa.sd.ws.modelos.Projeto;
 import ifsc.projeto.pesquisa.sd.ws.modelos.rest.RequestSituacao;
 import ifsc.projeto.pesquisa.sd.ws.modelos.rest.ResponseBase;
@@ -42,21 +43,35 @@ public class ProjetosApi {
 		return new ResponseEntity<ResponseBase<List<Projeto>>>(baseResponse, HttpStatus.OK);
 	}
 	
+	@ApiOperation(value = "Consulta o total de projetos e a quantidade por situação")
+	@RequestMapping(value = "/dashBoard", method = RequestMethod.GET)
+	public ResponseEntity<ResponseBase<DashboardInfos>> dashBoard() {
+		ResponseBase<DashboardInfos> baseResponse = new ResponseBase<>();
+		try {
+			baseResponse = new ResponseBase<>(true, "Informações carregadas com sucesso", ProjetosUtil.montarDashBoard());
+		} catch (Exception e) {
+			baseResponse = new ResponseBase<>(false, "Não foi possível carregar as informações", null);
+		}
+		return new ResponseEntity<ResponseBase<DashboardInfos>>(baseResponse, HttpStatus.OK);
+	}
+	
 	@ApiOperation(value = "Consulta todos os projetos por Situação")
 	@RequestMapping(value = "/projetosSituacao", method = RequestMethod.POST)
 	public ResponseEntity<ResponseBase<List<Projeto>>> projetosPorSituacao(@RequestBody @Valid RequestSituacao aSituacao) {
-		List<Projeto> listProjetos = ProjetosUtil.pegarProjetosSituacao(aSituacao.getSituacao());
+		List<Projeto> listProjetos = ProjetosUtil.filtrar(aSituacao);
 		ResponseBase<List<Projeto>> baseResponse = new ResponseBase<>();
 		try {
 			if(!listProjetos.isEmpty()) {
 				baseResponse = new ResponseBase<>(true, "Informações carregadas com sucesso", listProjetos);
 			} else {
-				baseResponse = new ResponseBase<>(true, "Nenhum projeto encontrado com essa situação", listProjetos);
+				baseResponse = new ResponseBase<>(false, "Nenhum projeto encontrado com essa situação ou ano", listProjetos);
 			}
 		} catch (Exception e) {
 			baseResponse = new ResponseBase<>(false, "Não foi possível carregar as informações", listProjetos);
 		}
 		return new ResponseEntity<ResponseBase<List<Projeto>>>(baseResponse, HttpStatus.OK);
 	}
+	
+	
 
 }

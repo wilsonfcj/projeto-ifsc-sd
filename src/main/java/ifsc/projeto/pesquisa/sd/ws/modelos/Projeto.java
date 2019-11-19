@@ -2,17 +2,28 @@ package ifsc.projeto.pesquisa.sd.ws.modelos;
 
 import java.util.Date;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class Projeto {
 	
+	@JsonProperty(value="Codigo")
 	private String codigo;
+	@JsonProperty(value="Titulo")
 	private String titulo;
+	@JsonProperty(value="Tipo")
 	private String tipo;
+	@JsonProperty(value="Categoria")
 	private String categoria;
+	@JsonProperty(value="Situacao")
 	private int situacao;
+	@JsonProperty(value="Area")
 	private String area;
+	@JsonProperty(value="EmailCoordenador")
 	private String emailCoordenador;
+	@JsonProperty(value="NomeCoordenador")
 	private String coordenador;
-	private Date dateCadastro;
+	@JsonProperty(value="DataCadastro")
+	private Date dataCadastro;
 	
 	public String getCodigo() {
 		return codigo;
@@ -78,12 +89,12 @@ public class Projeto {
 		this.coordenador = coordenador;
 	}
 
-	public Date getDateCadastro() {
-		return dateCadastro;
+	public Date getDataCadastro() {
+		return dataCadastro;
 	}
 
-	public void setDateCadastro(Date dateCadastro) {
-		this.dateCadastro = dateCadastro;
+	public void setDataCadastro(Date dateCadastro) {
+		this.dataCadastro = dateCadastro;
 	}
 	
 	
