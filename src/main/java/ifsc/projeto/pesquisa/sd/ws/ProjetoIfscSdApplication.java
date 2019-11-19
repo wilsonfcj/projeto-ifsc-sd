@@ -4,8 +4,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
-import ifsc.projeto.pesquisa.sd.ws.utilidades.ProjetosUtil;
-
 
 /*
  * Heroku Aplicação - https://projetos-pesquisa-api.herokuapp.com/
