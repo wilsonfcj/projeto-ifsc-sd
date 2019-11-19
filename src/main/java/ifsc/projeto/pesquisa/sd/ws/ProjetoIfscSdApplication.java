@@ -20,5 +20,4 @@ public class ProjetoIfscSdApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ProjetoIfscSdApplication.class, args);
 	}
-
 }
