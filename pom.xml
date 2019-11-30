@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	
-	<groupId>ifsc.edu.br.eurotour</groupId>
+	<groupId>ifsc.projeto.pesquisa.sd.ws</groupId>
 	<artifactId>apirest</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>apirest</name>

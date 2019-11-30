@@ -17,7 +17,8 @@ public class ProjetosUtil {
 
 		Projeto lProjeto = new Projeto();
 		lProjeto.setCodigo("PVLGS1135-2019");
-		lProjeto.setTitulo("Desenvolvimento de um aplicativo para o ensino e aprendizagem e produtos notáveis e polinômios");
+		lProjeto.setTitulo(
+				"Desenvolvimento de um aplicativo para o ensino e aprendizagem e produtos notáveis e polinômios");
 		lProjeto.setTipo("Projeto Interno por Editais (Projeto Novo)");
 		lProjeto.setCategoria("Pesquisa aplicada");
 		lProjeto.setSituacao(Situacao.EM_EXECUÇÃO.codigo);
@@ -57,7 +58,8 @@ public class ProjetosUtil {
 		lProjeto4.setTipo("Projeto Interno por Editais (Projeto Novo)");
 		lProjeto4.setCategoria("Pesquisa aplicada");
 		lProjeto4.setSituacao(Situacao.EM_EXECUÇÃO.codigo);
-		lProjeto4.setArea("COORDENADORIA DO CURSO TECNICO EM INFORMATICA PARA INTERNET (CAMPUS LAGES) (11.01.21.02.20)");
+		lProjeto4
+				.setArea("COORDENADORIA DO CURSO TECNICO EM INFORMATICA PARA INTERNET (CAMPUS LAGES) (11.01.21.02.20)");
 		lProjeto4.setEmailCoordenador("luciane.oliveira@ifsc.edu.br");
 		lProjeto4.setCoordenador("ANA MARIA MARTINS ROEBER");
 		lProjeto4.setDataCadastro(DateUtil.criarData(27, 3, 2019));
@@ -65,7 +67,8 @@ public class ProjetosUtil {
 
 		Projeto lProjeto5 = new Projeto();
 		lProjeto5.setCodigo("PILGS957-2019");
-		lProjeto5.setTitulo("Utilização do planejamento Simplex-Centróide para o desenvolvimento de polímeros biodegradáveis para armazenamento de alimentos: otimização das propriedades físico-químicas e antioxidantes.");
+		lProjeto5.setTitulo(
+				"Utilização do planejamento Simplex-Centróide para o desenvolvimento de polímeros biodegradáveis para armazenamento de alimentos: otimização das propriedades físico-químicas e antioxidantes.");
 		lProjeto5.setTipo("Projeto Interno por Editais (Projeto Novo)");
 		lProjeto5.setCategoria("Pesquisa aplicada");
 		lProjeto5.setSituacao(Situacao.EM_EXECUÇÃO.codigo);
@@ -77,7 +80,8 @@ public class ProjetosUtil {
 
 		Projeto lProjeto6 = new Projeto();
 		lProjeto6.setCodigo("PILGS1051-2019");
-		lProjeto6.setTitulo("Síntese verde de nanopartículas de prata para aplicação em biopolímeros: desenvolvimento de uma embalagem bioativa, biodegradável e inteligente para a conservação de alimentos.");
+		lProjeto6.setTitulo(
+				"Síntese verde de nanopartículas de prata para aplicação em biopolímeros: desenvolvimento de uma embalagem bioativa, biodegradável e inteligente para a conservação de alimentos.");
 		lProjeto6.setTipo("Projeto Interno por Editais (Projeto Novo)");
 		lProjeto6.setCategoria("Pesquisa aplicada");
 		lProjeto6.setSituacao(Situacao.EM_EXECUÇÃO.codigo);
@@ -125,11 +129,13 @@ public class ProjetosUtil {
 
 		Projeto lProjeto10 = new Projeto();
 		lProjeto10.setCodigo("PILGS1068-2019");
-		lProjeto10.setTitulo("Métodos Computacionais baseados em Inteligência Artificial para a Predição de Risco de Evasão de Alunos no Instituto Federal de Santa Catarina.");
+		lProjeto10.setTitulo(
+				"Métodos Computacionais baseados em Inteligência Artificial para a Predição de Risco de Evasão de Alunos no Instituto Federal de Santa Catarina.");
 		lProjeto10.setTipo("Projeto Interno por Editais (Projeto Novo)");
 		lProjeto10.setCategoria("Pesquisa aplicada");
 		lProjeto10.setSituacao(Situacao.EM_EXECUÇÃO.codigo);
-		lProjeto10.setArea("COORDENADORIA DO CURSO TECNICO EM INFORMATICA PARA INTERNET (CAMPUS LAGES) (11.01.21.02.20)");
+		lProjeto10
+				.setArea("COORDENADORIA DO CURSO TECNICO EM INFORMATICA PARA INTERNET (CAMPUS LAGES) (11.01.21.02.20)");
 		lProjeto10.setEmailCoordenador("andres.ferrero@ifsc.edu.br|anfer86@gmail.com");
 		lProjeto10.setCoordenador("CARLOS ANDRES FERRERO");
 		lProjeto10.setDataCadastro(DateUtil.criarData(9, 4, 2019));
@@ -137,7 +143,8 @@ public class ProjetosUtil {
 
 		Projeto lProjeto11 = new Projeto();
 		lProjeto11.setCodigo("PILGS1461-2019");
-		lProjeto11.setTitulo("Estruturação do laboratório de Física: provisão de equipamentos simples e kits básicos para a experimentação em ensino de física.");
+		lProjeto11.setTitulo(
+				"Estruturação do laboratório de Física: provisão de equipamentos simples e kits básicos para a experimentação em ensino de física.");
 		lProjeto11.setTipo("Projeto Interno por Editais (Projeto Novo)");
 		lProjeto11.setCategoria("Pesquisa aplicada");
 		lProjeto11.setSituacao(Situacao.SUBMETIDO.codigo);
@@ -149,7 +156,8 @@ public class ProjetosUtil {
 
 		Projeto lProjeto12 = new Projeto();
 		lProjeto12.setCodigo("PILGS1279-2019");
-		lProjeto12.setTitulo("DEFINIÇÃO DE CURVA ÓTIMA PARA GEOMETRIA DE PROPULSOR A JATO DE BOCAL DIVERGENTE CONVERGENTE COM COMBUSTÍVEIS GASOSOS.");
+		lProjeto12.setTitulo(
+				"DEFINIÇÃO DE CURVA ÓTIMA PARA GEOMETRIA DE PROPULSOR A JATO DE BOCAL DIVERGENTE CONVERGENTE COM COMBUSTÍVEIS GASOSOS.");
 		lProjeto12.setTipo("Projeto Interno por Editais (Projeto Novo)");
 		lProjeto12.setCategoria("Pesquisa aplicada");
 		lProjeto12.setSituacao(Situacao.EM_EXECUÇÃO.codigo);
@@ -161,7 +169,8 @@ public class ProjetosUtil {
 
 		Projeto lProjeto13 = new Projeto();
 		lProjeto13.setCodigo("PILGS1333-2019");
-		lProjeto13.setTitulo("CONSTRUÇÃO DE BANCADA DIDÁTICA MÁQUINAS DE FLUXO, TURBOMÁQUINAS E TÉCNICAS DE MEDIÇÃO DE VAZÃO PARA FLUIDOS.");
+		lProjeto13.setTitulo(
+				"CONSTRUÇÃO DE BANCADA DIDÁTICA MÁQUINAS DE FLUXO, TURBOMÁQUINAS E TÉCNICAS DE MEDIÇÃO DE VAZÃO PARA FLUIDOS.");
 		lProjeto13.setTipo("Projeto Interno por Editais (Projeto Novo)");
 		lProjeto13.setCategoria("Pesquisa aplicada");
 		lProjeto13.setSituacao(Situacao.EM_EXECUÇÃO.codigo);
@@ -173,7 +182,8 @@ public class ProjetosUtil {
 
 		Projeto lProjeto14 = new Projeto();
 		lProjeto14.setCodigo("PILGS1308-2019");
-		lProjeto14.setTitulo("ADEQUAÇÃO INDUSTRIAL DAS BAIAS DIDÁTICAS DE ENSINO DE INSTALAÇÕES ELÉTRICAS RESIDENCIAIS E PREDIAIS");
+		lProjeto14.setTitulo(
+				"ADEQUAÇÃO INDUSTRIAL DAS BAIAS DIDÁTICAS DE ENSINO DE INSTALAÇÕES ELÉTRICAS RESIDENCIAIS E PREDIAIS");
 		lProjeto14.setTipo("Projeto Interno por Editais (Projeto Novo)");
 		lProjeto14.setCategoria("Desenvolvimento tecnológico e inovação");
 		lProjeto14.setSituacao(Situacao.SUBMETIDO.codigo);
@@ -189,7 +199,8 @@ public class ProjetosUtil {
 		lProjeto15.setTipo("Projeto Interno por Editais (Projeto Novo)");
 		lProjeto15.setCategoria("Pesquisa aplicada");
 		lProjeto15.setSituacao(Situacao.EM_EXECUÇÃO.codigo);
-		lProjeto15.setArea("OORDENADORIA DO CURSO SUPERIOR DE TECNOLOGIA EM PROCESSOS QUÍMICOS (CAMPUS LAGES) (11.01.21.02.16)");
+		lProjeto15.setArea(
+				"OORDENADORIA DO CURSO SUPERIOR DE TECNOLOGIA EM PROCESSOS QUÍMICOS (CAMPUS LAGES) (11.01.21.02.16)");
 		lProjeto15.setEmailCoordenador("jaqueline.suave@ifsc.edu.br");
 		lProjeto15.setCoordenador("JAQUELINE SUAVE");
 		lProjeto15.setDataCadastro(DateUtil.criarData(5, 7, 2019));
@@ -211,13 +222,11 @@ public class ProjetosUtil {
 
 		Projeto lProjeto17 = new Projeto();
 		lProjeto17.setCodigo("PILGS1029-2019");
-		lProjeto17.setTitulo(
-				"Desenvolvimento de sorvete probiótico utilizando a microencapsulação e hidrolisados do colágeno como crioprotetores microbianos");
+		lProjeto17.setTitulo("Desenvolvimento de sorvete probiótico utilizando a microencapsulação e hidrolisados do colágeno como crioprotetores microbianos");
 		lProjeto17.setTipo("Projeto Interno por Editais (Projeto Novo)");
 		lProjeto17.setCategoria("Pesquisa aplicada");
 		lProjeto17.setSituacao(Situacao.EM_EXECUÇÃO.codigo);
-		lProjeto17.setArea(
-				"OORDENADORIA DO CURSO SUPERIOR DE TECNOLOGIA EM PROCESSOS QUÍMICOS (CAMPUS LAGES) (11.01.21.02.16)");
+		lProjeto17.setArea("COORDENADORIA DO CURSO SUPERIOR DE TECNOLOGIA EM PROCESSOS QUÍMICOS (CAMPUS LAGES) (11.01.21.02.16)");
 		lProjeto17.setEmailCoordenador("joao.provesi@ifsc.edu.br|provesijg@yahoo.com.br");
 		lProjeto17.setCoordenador("JOAO GUSTAVO PROVESI");
 		lProjeto17.setDataCadastro(DateUtil.criarData(29, 3, 2019));
@@ -225,13 +234,11 @@ public class ProjetosUtil {
 
 		Projeto lProjeto18 = new Projeto();
 		lProjeto18.setCodigo("PILGS1312-2019");
-		lProjeto18.setTitulo(
-				"Tabela Periódica 3D – Aprendizagem baseada em projetos no ensino de química para alunos da primeira fase do curso técnico em Análises Químicas do IFSC Campus Lages");
+		lProjeto18.setTitulo("Tabela Periódica 3D – Aprendizagem baseada em projetos no ensino de química para alunos da primeira fase do curso técnico em Análises Químicas do IFSC Campus Lages");
 		lProjeto18.setTipo("Projeto Interno por Editais (Projeto Novo)");
 		lProjeto18.setCategoria("Pesquisa aplicada");
 		lProjeto18.setSituacao(Situacao.SUBMETIDO.codigo);
-		lProjeto18.setArea(
-				"COORDENADORIA DO CURSO SUPERIOR DE TECNOLOGIA EM PROCESSOS QUÍMICOS (CAMPUS LAGES) (11.01.21.02.16)");
+		lProjeto18.setArea("COORDENADORIA DO CURSO SUPERIOR DE TECNOLOGIA EM PROCESSOS QUÍMICOS (CAMPUS LAGES) (11.01.21.02.16)");
 		lProjeto18.setEmailCoordenador("joao.provesi@ifsc.edu.br|provesijg@yahoo.com.br");
 		lProjeto18.setCoordenador("JOAO GUSTAVO PROVESI");
 		lProjeto18.setDataCadastro(DateUtil.criarData(24, 10, 2019));
@@ -239,13 +246,11 @@ public class ProjetosUtil {
 
 		Projeto lProjeto19 = new Projeto();
 		lProjeto19.setCodigo("PILGS1338-2019");
-		lProjeto19.setTitulo(
-				"Valorizando o agroecológico: composição e bioativos em alimentos de origem animal e vegetal produzidos por sistemas agroecológicos e comercializados na serra catarinense");
+		lProjeto19.setTitulo("Valorizando o agroecológico: composição e bioativos em alimentos de origem animal e vegetal produzidos por sistemas agroecológicos e comercializados na serra catarinense");
 		lProjeto19.setTipo("Projeto Interno por Editais (Projeto Novo)");
 		lProjeto19.setCategoria("Pesquisa aplicada");
 		lProjeto19.setSituacao(Situacao.SUBMETIDO.codigo);
-		lProjeto19.setArea(
-				"COORDENADORIA DO CURSO SUPERIOR DE TECNOLOGIA EM PROCESSOS QUÍMICOS (CAMPUS LAGES) (11.01.21.02.16)");
+		lProjeto19.setArea("COORDENADORIA DO CURSO SUPERIOR DE TECNOLOGIA EM PROCESSOS QUÍMICOS (CAMPUS LAGES) (11.01.21.02.16)");
 		lProjeto19.setEmailCoordenador("joao.provesi@ifsc.edu.br|provesijg@yahoo.com.br");
 		lProjeto19.setCoordenador("JOAO GUSTAVO PROVESI");
 		lProjeto19.setDataCadastro(DateUtil.criarData(31, 10, 2019));
@@ -253,8 +258,7 @@ public class ProjetosUtil {
 
 		Projeto lProjeto20 = new Projeto();
 		lProjeto20.setCodigo("PILGS1126-2019");
-		lProjeto20.setTitulo(
-				"Aplicação de biopolímeros antioxidantes a base de amido de pinhão e pectina cítrica na conservação pós-colheita de uvas.");
+		lProjeto20.setTitulo("Aplicação de biopolímeros antioxidantes a base de amido de pinhão e pectina cítrica na conservação pós-colheita de uvas.");
 		lProjeto20.setTipo("Projeto Interno por Editais (Projeto Novo)");
 		lProjeto20.setCategoria("Pesquisa aplicada");
 		lProjeto20.setSituacao(Situacao.EM_EXECUÇÃO.codigo);
@@ -278,8 +282,7 @@ public class ProjetosUtil {
 
 		Projeto lProjeto22 = new Projeto();
 		lProjeto22.setCodigo("PILGS1076-2019");
-		lProjeto22.setTitulo(
-				"Avaliação de módulo fotovoltaico para iluminação da área didática-experimental do IFSC/Campus Lages");
+		lProjeto22.setTitulo("Avaliação de módulo fotovoltaico para iluminação da área didática-experimental do IFSC/Campus Lages");
 		lProjeto22.setTipo("Projeto Interno por Editais (Projeto Novo)");
 		lProjeto22.setCategoria("Pesquisa aplicada");
 		lProjeto22.setSituacao(Situacao.REPROVADO.codigo);
@@ -295,8 +298,7 @@ public class ProjetosUtil {
 		lProjeto23.setTipo("Projeto Interno por Editais (Projeto Novo)");
 		lProjeto23.setCategoria("Pesquisa aplicada");
 		lProjeto23.setSituacao(Situacao.REPROVADO.codigo);
-		lProjeto23
-				.setArea("COORDENADORIA DO CURSO TECNICO EM INFORMATICA PARA INTERNET (CAMPUS LAGES) (11.01.21.02.20)");
+		lProjeto23.setArea("COORDENADORIA DO CURSO TECNICO EM INFORMATICA PARA INTERNET (CAMPUS LAGES) (11.01.21.02.20)");
 		lProjeto23.setEmailCoordenador("juliano.goncalves@ifsc.edu.br");
 		lProjeto23.setCoordenador("JULIANO LUCAS GONCALVES");
 		lProjeto23.setDataCadastro(DateUtil.criarData(23, 5, 2019));
@@ -308,8 +310,7 @@ public class ProjetosUtil {
 		lProjeto24.setTipo("Projeto Interno por Editais (Projeto Novo)");
 		lProjeto24.setCategoria("Pesquisa aplicada");
 		lProjeto24.setSituacao(Situacao.REPROVADO.codigo);
-		lProjeto24
-				.setArea("COORDENADORIA DO CURSO TECNICO EM INFORMATICA PARA INTERNET (CAMPUS LAGES) (11.01.21.02.20)");
+		lProjeto24.setArea("COORDENADORIA DO CURSO TECNICO EM INFORMATICA PARA INTERNET (CAMPUS LAGES) (11.01.21.02.20)");
 		lProjeto24.setEmailCoordenador("juliano.goncalves@ifsc.edu.br|julianolg@gmail.com");
 		lProjeto24.setCoordenador("JULIANO LUCAS GONCALVES");
 		lProjeto24.setDataCadastro(DateUtil.criarData(10, 4, 2019));
@@ -317,13 +318,11 @@ public class ProjetosUtil {
 
 		Projeto lProjeto25 = new Projeto();
 		lProjeto25.setCodigo("PILGS1451-2019");
-		lProjeto25.setTitulo(
-				"AVALIAÇÃO DA QUALIDADE QUÍMICA E FÍSICA DE COMPOSTAGEM E VERMICOMPOSTAGEM DOS RESÍDUOS ORGÂNICOS GERADOS PELO CÂMPUS LAGES");
+		lProjeto25.setTitulo("AVALIAÇÃO DA QUALIDADE QUÍMICA E FÍSICA DE COMPOSTAGEM E VERMICOMPOSTAGEM DOS RESÍDUOS ORGÂNICOS GERADOS PELO CÂMPUS LAGES");
 		lProjeto25.setTipo("Projeto Interno por Editais (Projeto Novo)");
 		lProjeto25.setCategoria("Pesquisa aplicada");
 		lProjeto25.setSituacao(Situacao.SUBMETIDO.codigo);
-		lProjeto25.setArea(
-				"COORDENADORIA DO CURSO SUPERIOR DE TECNOLOGIA EM GESTAO DO AGRONEGOCIO (CAMPUS LAGES) (11.01.21.02.14.02)");
+		lProjeto25.setArea("COORDENADORIA DO CURSO SUPERIOR DE TECNOLOGIA EM GESTAO DO AGRONEGOCIO (CAMPUS LAGES) (11.01.21.02.14.02)");
 		lProjeto25.setEmailCoordenador("luciane.costa@ifsc.edu.br|lucianecosta.ifsc@gmail.com");
 		lProjeto25.setCoordenador("LUCIANE COSTA DE OLIVEIRA");
 		lProjeto25.setDataCadastro(DateUtil.criarData(12, 10, 2019));
@@ -331,8 +330,7 @@ public class ProjetosUtil {
 
 		Projeto lProjeto26 = new Projeto();
 		lProjeto26.setCodigo("PILGS1457-2019");
-		lProjeto26.setTitulo(
-				"AVALIAÇÃO DA QUALIDADE QUÍMICA E FÍSICA DE COMPOSTAGEM E VERMICOMPOSTAGEM DOS RESÍDUOS ORGÂNICOS GERADOS PELO CÂMPUS LAGES");
+		lProjeto26.setTitulo("AVALIAÇÃO DA QUALIDADE QUÍMICA E FÍSICA DE COMPOSTAGEM E VERMICOMPOSTAGEM DOS RESÍDUOS ORGÂNICOS GERADOS PELO CÂMPUS LAGES");
 		lProjeto26.setTipo("Projeto Interno por Editais (Projeto Novo)");
 		lProjeto26.setCategoria("Pesquisa aplicada");
 		lProjeto26.setSituacao(Situacao.SUBMETIDO.codigo);
@@ -368,8 +366,7 @@ public class ProjetosUtil {
 
 		Projeto lProjeto29 = new Projeto();
 		lProjeto29.setCodigo("PILGS1121-2019");
-		lProjeto29.setTitulo(
-				"Desenvolvimento de nanopartículas de prata para aplicação em enxertos ósseos de uso odontológico");
+		lProjeto29.setTitulo("Desenvolvimento de nanopartículas de prata para aplicação em enxertos ósseos de uso odontológico");
 		lProjeto29.setTipo("Projeto Interno por Editais (Projeto Novo)");
 		lProjeto29.setCategoria("Pesquisa aplicada");
 		lProjeto29.setSituacao(Situacao.EM_EXECUÇÃO.codigo);
@@ -385,8 +382,7 @@ public class ProjetosUtil {
 		lProjeto30.setTipo("Projeto Interno de Fluxo Contínuo (Projeto Novo)");
 		lProjeto30.setCategoria("Desenvolvimento de Projetos de Pesquisa de Fluxo Contínuo");
 		lProjeto30.setSituacao(Situacao.SUBMETIDO.codigo);
-		lProjeto30
-				.setArea("COORDENADORIA DO CURSO TECNICO EM INFORMATICA PARA INTERNET (CAMPUS LAGES) (11.01.21.02.20)");
+		lProjeto30.setArea("COORDENADORIA DO CURSO TECNICO EM INFORMATICA PARA INTERNET (CAMPUS LAGES) (11.01.21.02.20)");
 		lProjeto30.setEmailCoordenador("paula.jesus@ifsc.edu.br");
 		lProjeto30.setCoordenador("PAULA CLARICE SANTOS GRAZZIOTIN DE JESUS");
 		lProjeto30.setDataCadastro(DateUtil.criarData(29, 8, 2019));
@@ -398,101 +394,131 @@ public class ProjetosUtil {
 		lProjeto31.setTipo("Projeto Interno por Editais (Projeto Novo)");
 		lProjeto31.setCategoria("Pesquisa aplicada");
 		lProjeto31.setSituacao(Situacao.EM_EXECUÇÃO.codigo);
-		lProjeto31
-				.setArea("COORDENADORIA DO CURSO TECNICO EM INFORMATICA PARA INTERNET (CAMPUS LAGES) (11.01.21.02.20)");
+		lProjeto31.setArea("COORDENADORIA DO CURSO TECNICO EM INFORMATICA PARA INTERNET (CAMPUS LAGES) (11.01.21.02.20)");
 		lProjeto31.setEmailCoordenador("paula.jesus@ifsc.edu.br");
 		lProjeto31.setCoordenador("PAULA CLARICE SANTOS GRAZZIOTIN DE JESUS");
 		lProjeto31.setDataCadastro(DateUtil.criarData(24, 9, 2019));
 		listProjetos.add(lProjeto31);
-		
-		
+
 		Projeto lProjeto32 = new Projeto();
-		lProjeto32.setCodigo("PILGS1355-2018");
-		lProjeto32.setTitulo("Teste 1");
+		lProjeto32.setCodigo("PILGS1084-2019");
+		lProjeto32.setTitulo("Biomassa e composição química do óleo essencial de Lavanda (Lavandula angustifolia Mill.) sob diferentes fontes de adubação");
 		lProjeto32.setTipo("Projeto Interno por Editais (Projeto Novo)");
 		lProjeto32.setCategoria("Pesquisa aplicada");
-		lProjeto32.setSituacao(Situacao.FINALIZADO.codigo);
-		lProjeto32
-				.setArea("COORDENADORIA DO CURSO TECNICO EM INFORMATICA PARA INTERNET (CAMPUS LAGES) (11.01.21.02.20)");
-		lProjeto32.setEmailCoordenador("wilson.fcj@aluno.ifsc.edu.br");
-		lProjeto32.setCoordenador("Wilson Fernandes");
-		lProjeto32.setDataCadastro(DateUtil.criarData(24, 9, 2018));
+		lProjeto32.setSituacao(Situacao.EM_EXECUÇÃO.codigo);
+		lProjeto32.setArea("COORDENADORIA CURSOS TECNICO EM AGROECOLOGIA (CAMPUS LAGES) (11.01.21.02.10)");
+		lProjeto32.setEmailCoordenador("paula.iaschitzki@ifsc.edu.br");
+		lProjeto32.setCoordenador("PAULA IASCHITZKI FERREIRA CIPRIANI");
+		lProjeto32.setDataCadastro(DateUtil.criarData(10, 4, 2019));
 		listProjetos.add(lProjeto32);
-		
+
 		Projeto lProjeto33 = new Projeto();
-		lProjeto33.setCodigo("PILGS1276-2018");
-		lProjeto33.setTitulo("Teste 2");
+		lProjeto33.setCodigo("PILGS1335-2019");
+		lProjeto33.setTitulo("​ Identificação molecular de coliformes termotolerantes em carne moída comercializada na municipalidade de Lages.");
 		lProjeto33.setTipo("Projeto Interno por Editais (Projeto Novo)");
-		lProjeto33.setCategoria("Pesquisa aplicada");
-		lProjeto33.setSituacao(Situacao.REPROVADO.codigo);
-		lProjeto33
-				.setArea("COORDENADORIA DO CURSO TECNICO EM INFORMATICA PARA INTERNET (CAMPUS LAGES) (11.01.21.02.20)");
-		lProjeto33.setEmailCoordenador("iara.g@aluno.ifsc.edu.br");
-		lProjeto33.setCoordenador("Iara Groselha");
-		lProjeto33.setDataCadastro(DateUtil.criarData(5, 12, 2018));
+		lProjeto33.setCategoria("Desenvolvimento tecnológico e inovação");
+		lProjeto33.setSituacao(Situacao.SUBMETIDO.codigo);
+		lProjeto33.setArea("COORDENADORIA DE CURSOS TÉCNICOS DE BIOTECNOLOGIA (CAMPUS LAGES) (11.01.21.02.01)");
+		lProjeto33.setEmailCoordenador("paulo.henrique@ifsc.edu.br");
+		lProjeto33.setCoordenador("PAULO HENRIQUE MATAYOSHI CALIXTO	");
+		lProjeto33.setDataCadastro(DateUtil.criarData(28, 10, 2019));
 		listProjetos.add(lProjeto33);
-		
-		
+
 		Projeto lProjeto34 = new Projeto();
-		lProjeto34.setCodigo("PILGS1345-2017");
-		lProjeto34.setTitulo("Teste 3");
+		lProjeto34.setCodigo("PILGS1382-2019");
+		lProjeto34.setTitulo("Identificação molecular de Salmonella spp. em ovos comercializados em supermercados de Lages, SC.");
 		lProjeto34.setTipo("Projeto Interno por Editais (Projeto Novo)");
 		lProjeto34.setCategoria("Pesquisa aplicada");
-		lProjeto34.setSituacao(Situacao.FINALIZADO_COM_PENDÊNCIAS.codigo);
-		lProjeto34
-				.setArea("COORDENADORIA DO CURSO TECNICO EM INFORMATICA PARA INTERNET (CAMPUS LAGES) (11.01.21.02.20)");
-		lProjeto34.setEmailCoordenador("iara.g@aluno.ifsc.edu.br");
-		lProjeto34.setCoordenador("Iara Groselha");
-		lProjeto34.setDataCadastro(DateUtil.criarData(5, 12, 2017));
+		lProjeto34.setSituacao(Situacao.SUBMETIDO.codigo);
+		lProjeto34.setArea("COORDENADORIA DE CURSOS TÉCNICOS DE BIOTECNOLOGIA (CAMPUS LAGES) (11.01.21.02.01)");
+		lProjeto34.setEmailCoordenador("paulo.henrique@ifsc.edu.br");
+		lProjeto34.setCoordenador("PAULO HENRIQUE MATAYOSHI CALIXTO");
+		lProjeto34.setDataCadastro(DateUtil.criarData(4, 11, 2019));
 		listProjetos.add(lProjeto34);
+
+		Projeto lProjeto35 = new Projeto();
+		lProjeto35.setCodigo("PILGS1464-2019");
+		lProjeto35.setTitulo("Construção de set para manipulação de DNA para o ensino de Biologia Molecular.");
+		lProjeto35.setTipo("Projeto Interno por Editais (Projeto Novo)");
+		lProjeto35.setCategoria("Pesquisa aplicada");
+		lProjeto35.setSituacao(Situacao.SUBMETIDO.codigo);
+		lProjeto35.setArea("COORDENADORIA CURSOS TECNICO DE BIOTECNOLOGIA (CAMPUS LAGES) (11.01.21.02.01)");
+		lProjeto35.setEmailCoordenador("paulo.henrique@ifsc.edu.br");
+		lProjeto35.setCoordenador("PAULO HENRIQUE MATAYOSHI CALIXTO");
+		lProjeto35.setDataCadastro(DateUtil.criarData(13, 11, 2019));
+		listProjetos.add(lProjeto35);
+		
+		Projeto lProjeto36 = new Projeto();
+		lProjeto36.setCodigo("PILGS354-2018");
+		lProjeto36.setTitulo("Sistema de Monitoramento Remoto de Microclima em Vinhedos");
+		lProjeto36.setTipo("Projeto Interno por Editais (Projeto Novo)");
+		lProjeto36.setCategoria("Desenvolvimento tecnológico e inovação");
+		lProjeto36.setSituacao(Situacao.FINALIZADO.codigo);
+		lProjeto36.setArea("COORDENADORIA DO CURSO DE CIÊNCIAS DA COMPUTAÇÃO (CAMPUS LAGES) (11.01.21.02.17)");
+		lProjeto36.setEmailCoordenador("robson.costa@ifsc.edu.br");
+		lProjeto36.setCoordenador("ROBSON COSTA");
+		lProjeto36.setDataCadastro(DateUtil.criarData(12, 4, 2018));
+		listProjetos.add(lProjeto36);
+		
+		Projeto lProjeto37 = new Projeto();
+		lProjeto37.setCodigo("PVLGS116-2017");
+		lProjeto37.setTitulo("Identificação dos fatores que levam a reprovação em disciplinas introdutórias de programação nos cursos técnico e superior do câmpus.");
+		lProjeto37.setTipo("Projeto Interno por Editais (Projeto Novo)");
+		lProjeto37.setCategoria("Pesquisa básica");
+		lProjeto37.setSituacao(Situacao.FINALIZADO.codigo);
+		lProjeto37.setArea("COORDENADORIA DE CURSOS TÉCNICOS DE INFORMÁTICA (CAMPUS LAGES) (11.01.21.02.02)");
+		lProjeto37.setEmailCoordenador("juliano.goncalves@ifsc.edu.br");
+		lProjeto37.setCoordenador("JULIANO LUCAS GONCALVES");
+		lProjeto37.setDataCadastro(DateUtil.criarData(6, 11, 2017));
+		listProjetos.add(lProjeto37);
 
 		return listProjetos;
 	}
-	
+
 	public static List<Projeto> filtrar(RequestSituacao aSituacao) {
 		List<Projeto> lProjetos = ProjetosUtil.criarProjetos();
 		List<Projeto> listProjetos = new ArrayList<>();
-		if(aSituacao.getAno() == null && aSituacao.getSituacao() == null) {
+		if (aSituacao.getAno() == null && aSituacao.getSituacao() == null) {
 			listProjetos = lProjetos;
 		} else {
-			if(aSituacao.getAno() != null && aSituacao.getSituacao() != null) {
-				listProjetos  = ProjetosUtil.filtrar(lProjetos,aSituacao);
-			} else if(aSituacao.getAno() != null && aSituacao.getSituacao() == null) {
-				listProjetos  = ProjetosUtil.filtrarAno(lProjetos, aSituacao.getAno());
+			if (aSituacao.getAno() != null && aSituacao.getSituacao() != null) {
+				listProjetos = ProjetosUtil.filtrar(lProjetos, aSituacao);
+			} else if (aSituacao.getAno() != null && aSituacao.getSituacao() == null) {
+				listProjetos = ProjetosUtil.filtrarAno(lProjetos, aSituacao.getAno());
 			} else {
-				listProjetos  = ProjetosUtil.filtrarSituacao(lProjetos,aSituacao.getSituacao());
+				listProjetos = ProjetosUtil.filtrarSituacao(lProjetos, aSituacao.getSituacao());
 			}
 		}
 		return listProjetos;
 	}
-	
+
 	public static List<Projeto> filtrar(List<Projeto> aProjetos, RequestSituacao aRequestSituacao) {
 		List<Projeto> lProjetos = aProjetos;
 		List<Projeto> lProjetosFiltrados = new ArrayList<>();
 		for (Projeto lProjeto : lProjetos) {
 			Calendar lCalendar = Calendar.getInstance();
 			lCalendar.setTime(lProjeto.getDataCadastro());
-			if(lCalendar.get(Calendar.YEAR) == aRequestSituacao.getAno() &&
-					lProjeto.getSituacao() == aRequestSituacao.getSituacao()) {
+			if (lCalendar.get(Calendar.YEAR) == aRequestSituacao.getAno()
+					&& lProjeto.getSituacao() == aRequestSituacao.getSituacao()) {
 				lProjetosFiltrados.add(lProjeto);
 			}
 		}
 		return lProjetosFiltrados;
 	}
-	
+
 	public static List<Projeto> filtrarAno(List<Projeto> aProjetos, int aAno) {
 		List<Projeto> lProjetos = aProjetos;
 		List<Projeto> lProjetosFiltrados = new ArrayList<>();
 		for (Projeto lProjeto : lProjetos) {
 			Calendar lCalendar = Calendar.getInstance();
 			lCalendar.setTime(lProjeto.getDataCadastro());
-			if(lCalendar.get(Calendar.YEAR) == aAno) {
+			if (lCalendar.get(Calendar.YEAR) == aAno) {
 				lProjetosFiltrados.add(lProjeto);
 			}
 		}
 		return lProjetosFiltrados;
 	}
-	
+
 	public static List<Projeto> filtrarSituacao(List<Projeto> aProjetos, int aSituacao) {
 		List<Projeto> listProjetos = aProjetos;
 		List<Projeto> listProjetosPorSituacao = new ArrayList<>();
