@@ -6,17 +6,17 @@ public enum Situacao {
 	CADSTRO_EM_ANDAMENTO(0,"Cadastro em andamento"),
 	SUBMETIDO(1,"Submetido"),
 	CADASTRADO(2,"Cadastrado"),
-	DISTRIBUIDO_PARA_AVALIAÇÃO_AUTOMATICAMENTE(3,"Distribuído para avaliação (Automaticamente)"),
+	DISTRIBUIDO_PARA_AVALIACAO_AUTOMATICAMENTE(3,"Distribuído para avaliação (Automaticamente)"),
 	AVALIAÇAO_INSUFICIENTE(4,"Avaliação insuficiente"),
-	DISTRIBUIDO_PARA_AVALIAÇÃO_MANUALEMTE(5,"Distribuído para avaliação (Manualmente)"),
+	DISTRIBUIDO_PARA_AVALIACAO_MANUALEMTE(5,"Distribuído para avaliação (Manualmente)"),
 	APROVADO(6,"Aprovado"),
-	EM_EXECUÇÃO(7,"Em execução"),
+	EM_EXECUCAO(7,"Em execução"),
 	FINALIZADO_RENOVADO(8,"Finalizado (Renovado)"),
 	FINALIZADO(9,"Finalizado"),
 	REPROVADO(10,"Reprovado"),
 	DESATIVADO(11,"Desativado"),
 	EXCLUIDO(12,"Excluído"),
-	FINALIZADO_COM_PENDÊNCIAS(13,"Finalizado com Pendências");
+	FINALIZADO_COM_PENDENCIAS(13,"Finalizado com Pendências");
 
 	Situacao(int aCodigo, String aSituacao) {
 		this.codigo = aCodigo;
