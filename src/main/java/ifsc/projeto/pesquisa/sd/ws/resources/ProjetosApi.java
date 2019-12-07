@@ -31,7 +31,6 @@ public class ProjetosApi {
 	
 	@ApiOperation(value = "Consulta todos os projetos de pesquisa do Campus-Lages")
 	@RequestMapping(value = "/projetos", method = RequestMethod.GET)
-	@Deprecated
 	public ResponseEntity<ResponseBase<List<Projeto>>> projetos() {
 		List<Projeto> listProjetos = new ArrayList<Projeto>();
 		ResponseBase<List<Projeto>> baseResponse = new ResponseBase<>();
